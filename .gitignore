@@ -1,0 +1,58 @@
+# ---------- .NET / WPF ----------
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.psess
+*.vsp
+*.vspx
+
+# Visual Studio
+.vs/
+*.vspscc
+*.vssscc
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Rider / ReSharper
+.idea/
+*.DotSettings.user
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# ---------- OS ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---------- Ollama 안전망 ----------
+# 설치 파일이나 모델이 실수로 프로젝트 폴더에 들어올 경우 push 차단
+OllamaSetup*.exe
+ollama.exe
+*.gguf
+*.bin
+models/
+.ollama/
