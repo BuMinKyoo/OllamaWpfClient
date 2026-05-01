@@ -54,5 +54,4 @@ OllamaSetup*.exe
 ollama.exe
 *.gguf
 *.bin
-models/
 .ollama/
