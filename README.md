@@ -180,22 +180,4 @@ ollama list
 
 응답은 모두 비스트리밍(`stream: false`)으로 처리합니다.
 
----
 
-## 향후 계획 (Roadmap)
-
-- [ ] 스트리밍 응답 (`stream: true`) — 토큰 단위 출력
-- [ ] 대화 내역 저장/불러오기 (JSON 파일)
-- [ ] 시스템 프롬프트 설정 UI
-- [ ] 모델별 옵션 조정 (temperature, top_p 등)
-- [ ] 마크다운 렌더링 (응답 표시)
-- [ ] 다중 대화 세션 (탭)
-
----
-
-## 참고 링크
-
-- Ollama 공식 사이트: https://ollama.com
-- Ollama GitHub: https://github.com/ollama/ollama
-- REST API 문서: https://github.com/ollama/ollama/blob/main/docs/api.md
-- 모델 라이브러리: https://ollama.com/library
