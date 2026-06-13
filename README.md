@@ -1,5 +1,11 @@
 # OllamaWpfClient
 
+<br/>
+
+<img width="886" height="632" alt="image" src="https://github.com/user-attachments/assets/427168dd-b6c9-4aa1-9860-101493d19f9c" />
+
+<br/>
+
 오프라인 환경에서 로컬 PC에 설치한 **Ollama**와 REST API로 통신하는 WPF 채팅 클라이언트입니다.
 인터넷 연결 없이 `127.0.0.1:11434` 로컬호스트에서 Llama 3, Qwen 등 LLM 모델을 구동하고 사용하는 것을 목표로 합니다.
 
